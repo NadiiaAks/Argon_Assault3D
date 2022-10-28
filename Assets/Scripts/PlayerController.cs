@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Translation")]
     [SerializeField] float controlSpeed = 10f;
     [SerializeField] float xRange = 5f;
     [SerializeField] float yRange = 5f;
 
+    [Header("Rotation")]
     [SerializeField] float positionPitchFactor = -2f;
     [SerializeField] float controlPitchFactor = -10f;
-
     [SerializeField] float positionYawFactor = 2f;
     [SerializeField] float controlRollFactor = -15f;
 
